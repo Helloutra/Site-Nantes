@@ -60,10 +60,10 @@ h2 {
 }
 .Index img{
     display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border: solid 3px #141115;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
 }
 .CV img{
     width: 100%;
@@ -93,11 +93,13 @@ h2 {
 .Lettre p, .Lettre table {
     background: #DCE4E3;
     padding: 20px;
+    width: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 8px;
     color: #655A7C;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-sizing: border-box;
 }
 .Lettre b {
     color: #141115;
