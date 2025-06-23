@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.25em;
+    border-bottom: 3px solid #141115;
+    background-color: #97B8D2;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+.En-tête a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.En-tête {
+    color: #FFFFFF
+}
+.En-tête a:hover {
+    text-decoration: underline;
+}
+body{
+    font-family: 'Manrope';
+    font-size: 1em;
+    background-color: #FFFFFF;
+    color: #958B8A;
+}
+h1 {
+    color: #8E9D9A;
+    font-family: 'Ubuntu';
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #141115;
+    font-family: 'Ubuntu';
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Index{
+    padding: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.Index img{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid 3px #141115;
+    
+}
+.CV img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #141115;
+}
+.CV-Lettre {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    min-width: 320px;
+}
+.CV, .Lettre {
+    flex: 1 1 0;
+    max-width: 45%;
+    min-width: 260px;
+}
+.Lettre h2 {
+    color: #141115;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.Lettre p, .Lettre table {
+    background: #DCE4E3;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #655A7C;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.Lettre b {
+    color: #141115;
+}
+.Lettre a {
+    text-decoration: none;
+    color: #56282D;
+}
+.Lettre a:hover {
+    text-decoration: underline;
+}
+.Lettre td {
+    padding: 10px;
+    border-bottom: 1px solid #9c9c9c;
+    border-right: 1px solid #9c9c9c;
+}
+.Portfolio {
+    padding: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.Portfolio a {
+    text-decoration: none;
+    color: #56282D;
+}
+.Portfolio a:hover {
+    text-decoration: underline;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.75em;
+    border-top: 3px solid #141115;
+    color: #FFFFFF;
+    background-color: #958B8A;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #56282D;
+}
+footer a:hover {
+    text-decoration: underline;
+}
