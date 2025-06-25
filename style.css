@@ -74,9 +74,9 @@ h2 {
 }
 .CV-Lettre {
     display: flex;
+    justify-content: center;
     gap: 50px;
     align-items: flex-start;
-    justify-content: center;
     padding: 25px;
     min-width: 320px;
 }
@@ -131,7 +131,7 @@ h2 {
 footer {
     padding: 20px;
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.85em;
     border-top: 3px solid #141115;
     color: #FFFFFF;
     background-color: #958B8A;
